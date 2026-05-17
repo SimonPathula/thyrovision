@@ -1,0 +1,17 @@
+numpy
+pandas
+matplotlib
+scipy
+tensorflow
+scikit-learn
+ipykernel
+opencv-python
+keras
+seaborn
+fastapi
+uvicorn
+jinja2
+huggingface-hub
+python-docx
+python-multipart
+pillow
