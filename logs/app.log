@@ -1,0 +1,8 @@
+2026-05-23 16:27:54,051 | INFO | thyrovision | Loading model for Streamlit...
+2026-05-23 16:27:55,322 | INFO | thyrovision | Streamlit model loaded successfully
+2026-05-23 16:28:00,463 | INFO | thyrovision | Image uploaded in Streamlit: 0378.jpg
+2026-05-23 16:28:00,491 | INFO | thyrovision | Preprocessing image of size: (513, 309) and L
+2026-05-23 16:28:01,100 | INFO | thyrovision | Generating DOCX report for label : Malignant (Cancerous)
+2026-05-23 16:28:05,949 | INFO | thyrovision | Image uploaded in Streamlit: 0378.jpg
+2026-05-23 16:28:05,958 | INFO | thyrovision | Preprocessing image of size: (513, 309) and L
+2026-05-23 16:28:06,378 | INFO | thyrovision | Generating DOCX report for label : Malignant (Cancerous)
