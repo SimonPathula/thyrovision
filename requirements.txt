@@ -5,7 +5,7 @@ scipy
 tensorflow
 scikit-learn
 ipykernel
-opencv-python
+opencv-python-headless
 keras
 seaborn
 fastapi
