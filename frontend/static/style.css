@@ -111,6 +111,15 @@ nav a:hover {
     position: relative;
 }
 
+.startup-note {
+    margin-top: 1.2rem;
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    line-height: 1.6;
+    text-align: center;
+    opacity: 0.9;
+}
+
 .drop-zone {
     background: var(--surface);
     border: 2px dashed var(--border);
