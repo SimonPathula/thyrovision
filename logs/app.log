@@ -6,3 +6,11 @@
 2026-05-23 16:28:05,949 | INFO | thyrovision | Image uploaded in Streamlit: 0378.jpg
 2026-05-23 16:28:05,958 | INFO | thyrovision | Preprocessing image of size: (513, 309) and L
 2026-05-23 16:28:06,378 | INFO | thyrovision | Generating DOCX report for label : Malignant (Cancerous)
+2026-05-25 06:19:31,058 | INFO | thyrovision | Starting Thyroid Cancer Detection API...
+2026-05-25 06:19:41,578 | INFO | thyrovision | Analyze request received for file: 0000.jpg
+2026-05-25 06:19:41,580 | INFO | thyrovision | Loading model from Hugging Face...
+2026-05-25 06:19:44,582 | INFO | thyrovision | Model loaded successfully
+2026-05-25 06:19:44,590 | INFO | thyrovision | Preprocessing image of size: (314, 402) and L
+2026-05-25 06:19:57,372 | INFO | thyrovision | Report request received for file: 0000.jpg
+2026-05-25 06:19:57,372 | INFO | thyrovision | Preprocessing image of size: (314, 402) and L
+2026-05-25 06:19:57,649 | INFO | thyrovision | Generating DOCX report for label : Benign (Non-Cancerous)
