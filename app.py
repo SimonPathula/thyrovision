@@ -25,7 +25,7 @@ async def lifespan(_app):
     # Shutdown
     logger.info("Server shutting down...")
 
-app = FastAPI(title="Thyroid Cancer Detection API")
+app = FastAPI(title="Thyroid Cancer Detection API", lifespan= lifespan)
 
 # Mount static files
 app.mount("/static", StaticFiles(directory="frontend/static"), name="static")
