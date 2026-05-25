@@ -12,6 +12,7 @@ from contextlib import asynccontextmanager
 import uvicorn
 from backend.routes import router, load_model
 from utils.logger import logger
+from fastapi.middleware.cors import CORSMiddleware
 
 @asynccontextmanager
 async def lifespan(_app):
@@ -26,6 +27,14 @@ async def lifespan(_app):
     logger.info("Server shutting down...")
 
 app = FastAPI(title="Thyroid Cancer Detection API", lifespan= lifespan)
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 # Mount static files
 app.mount("/static", StaticFiles(directory="frontend/static"), name="static")

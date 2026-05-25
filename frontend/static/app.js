@@ -59,7 +59,7 @@ async function handleFiles(files) {
     formData.append('file', file);
 
     try {
-        const response = await fetch('/analyze', { method: 'POST', body: formData });
+        const response = await fetch('https://thyrovisionxai.onrender.com/analyze', { method: 'POST', body: formData });
         if (!response.ok) throw new Error("Diagnostic analysis failed. Please try again.");
 
         const result = await response.json();
@@ -102,7 +102,7 @@ downloadBtn.addEventListener('click', async () => {
         downloadBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Generating Report...';
         downloadBtn.disabled = true;
 
-        const response = await fetch('/report', { method: 'POST', body: formData });
+        const response = await fetch('https://thyrovisionxai.onrender.com/report', { method: 'POST', body: formData });
         if (!response.ok) throw new Error("Report generation failed.");
 
         const blob = await response.blob();
